@@ -82,7 +82,7 @@ addButton.addEventListener('click', () => {
 });
 
 subtractButton.addEventListener('click', () => {
-    humanGuestInput.value = +humanGuestInput.value -1:
+    humanGuestInput.value = +humanGuestInput.value -1;
     handleValueChange(humanGuestInput.value);
 });
 
